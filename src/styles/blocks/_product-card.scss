@@ -11,6 +11,12 @@
     width: 160px;
     height: 134px;
     margin: 15px 5px 45px;
+    transition: transform 0.4s;
+    cursor: pointer;
+  }
+
+  &__image:hover {
+    transform: scale(1.2);
   }
 
   &__title {
@@ -68,6 +74,7 @@
     text-decoration: none;
     padding: 11px 57px;
     height: 40px;
+    transition: color 0.4s, background-color 0.4s;
   }
 
   &__buy-button:hover {
