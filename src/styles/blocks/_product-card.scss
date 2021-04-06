@@ -11,6 +11,11 @@
     width: 160px;
     height: 134px;
     margin: 15px 5px 45px;
+    transition-duration: 0.4s;
+  }
+
+  &__image:hover {
+    transform: scale(1.2);
   }
 
   &__title {
@@ -68,6 +73,7 @@
     text-decoration: none;
     padding: 11px 57px;
     height: 40px;
+    transition-duration: 0.4s;
   }
 
   &__buy-button:hover {
